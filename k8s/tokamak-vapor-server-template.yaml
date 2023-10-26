@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: tokamak-server
-          image: loganoconnell/tokamak-server:0.0.2
+          image: loganoconnell/tokamak-server:0.0.1
           ports:
             - name: http
               containerPort: 8080
